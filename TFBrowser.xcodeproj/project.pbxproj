@@ -11,8 +11,18 @@
 		465EB94815B9852600A4C9D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465EB94715B9852600A4C9D6 /* Foundation.framework */; };
 		465EB94A15B9852600A4C9D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465EB94915B9852600A4C9D6 /* CoreGraphics.framework */; };
 		465EB95015B9852600A4C9D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 465EB94E15B9852600A4C9D6 /* InfoPlist.strings */; };
-		465EB95215B9852600A4C9D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB95115B9852600A4C9D6 /* main.m */; };
-		465EB95615B9852600A4C9D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB95515B9852600A4C9D6 /* AppDelegate.m */; };
+		465EB95215B9852600A4C9D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB95115B9852600A4C9D6 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		465EB95615B9852600A4C9D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB95515B9852600A4C9D6 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		465EB97415B9885C00A4C9D6 /* AddBookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB96415B9885C00A4C9D6 /* AddBookmarkViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		465EB97515B9885C00A4C9D6 /* BookmarkObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB96615B9885C00A4C9D6 /* BookmarkObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		465EB97615B9885C00A4C9D6 /* CIALBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 465EB96715B9885C00A4C9D6 /* CIALBrowser.bundle */; };
+		465EB97715B9885C00A4C9D6 /* CIALBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB96915B9885C00A4C9D6 /* CIALBrowser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		465EB97815B9885C00A4C9D6 /* CIALBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB96B15B9885C00A4C9D6 /* CIALBrowserViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		465EB97915B9885C00A4C9D6 /* EditBookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB96D15B9885C00A4C9D6 /* EditBookmarkViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		465EB97A15B9885C00A4C9D6 /* UIWebViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB96F15B9885C00A4C9D6 /* UIWebViewAdditions.m */; };
+		465EB97B15B9885C00A4C9D6 /* UnpreventableUILongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB97115B9885C00A4C9D6 /* UnpreventableUILongPressGestureRecognizer.m */; };
+		465EB97C15B9885C00A4C9D6 /* ViewBookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465EB97315B9885C00A4C9D6 /* ViewBookmarkViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		465EB98215B988D000A4C9D6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465EB98115B988D000A4C9D6 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,30 @@
 		465EB94515B9852600A4C9D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		465EB94715B9852600A4C9D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		465EB94915B9852600A4C9D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		465EB94D15B9852600A4C9D6 /* TFBrowser-Info.plist */ = {isa = PBXFileReference; path = "TFBrowser-Info.plist"; sourceTree = "<group>"; };
+		465EB94D15B9852600A4C9D6 /* TFBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFBrowser-Info.plist"; sourceTree = "<group>"; };
 		465EB94F15B9852600A4C9D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		465EB95115B9852600A4C9D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		465EB95315B9852600A4C9D6 /* TFBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "TFBrowser-Prefix.pch"; sourceTree = "<group>"; };
-		465EB95415B9852600A4C9D6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		465EB95315B9852600A4C9D6 /* TFBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		465EB95415B9852600A4C9D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		465EB95515B9852600A4C9D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		465EB96315B9885C00A4C9D6 /* AddBookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookmarkViewController.h; sourceTree = "<group>"; };
+		465EB96415B9885C00A4C9D6 /* AddBookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookmarkViewController.m; sourceTree = "<group>"; };
+		465EB96515B9885C00A4C9D6 /* BookmarkObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkObject.h; sourceTree = "<group>"; };
+		465EB96615B9885C00A4C9D6 /* BookmarkObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkObject.m; sourceTree = "<group>"; };
+		465EB96715B9885C00A4C9D6 /* CIALBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CIALBrowser.bundle; sourceTree = "<group>"; };
+		465EB96815B9885C00A4C9D6 /* CIALBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIALBrowser.h; sourceTree = "<group>"; };
+		465EB96915B9885C00A4C9D6 /* CIALBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIALBrowser.m; sourceTree = "<group>"; };
+		465EB96A15B9885C00A4C9D6 /* CIALBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIALBrowserViewController.h; sourceTree = "<group>"; };
+		465EB96B15B9885C00A4C9D6 /* CIALBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIALBrowserViewController.m; sourceTree = "<group>"; };
+		465EB96C15B9885C00A4C9D6 /* EditBookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBookmarkViewController.h; sourceTree = "<group>"; };
+		465EB96D15B9885C00A4C9D6 /* EditBookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBookmarkViewController.m; sourceTree = "<group>"; };
+		465EB96E15B9885C00A4C9D6 /* UIWebViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewAdditions.h; sourceTree = "<group>"; };
+		465EB96F15B9885C00A4C9D6 /* UIWebViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewAdditions.m; sourceTree = "<group>"; };
+		465EB97015B9885C00A4C9D6 /* UnpreventableUILongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnpreventableUILongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		465EB97115B9885C00A4C9D6 /* UnpreventableUILongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnpreventableUILongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		465EB97215B9885C00A4C9D6 /* ViewBookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBookmarkViewController.h; sourceTree = "<group>"; };
+		465EB97315B9885C00A4C9D6 /* ViewBookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBookmarkViewController.m; sourceTree = "<group>"; };
+		465EB98115B988D000A4C9D6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465EB98215B988D000A4C9D6 /* MessageUI.framework in Frameworks */,
 				465EB94615B9852600A4C9D6 /* UIKit.framework in Frameworks */,
 				465EB94815B9852600A4C9D6 /* Foundation.framework in Frameworks */,
 				465EB94A15B9852600A4C9D6 /* CoreGraphics.framework in Frameworks */,
@@ -46,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				465EB94B15B9852600A4C9D6 /* TFBrowser */,
+				465EB96015B9883A00A4C9D6 /* vendors */,
 				465EB94415B9852600A4C9D6 /* Frameworks */,
 				465EB94215B9852600A4C9D6 /* Products */,
 			);
@@ -62,6 +92,7 @@
 		465EB94415B9852600A4C9D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				465EB98115B988D000A4C9D6 /* MessageUI.framework */,
 				465EB94515B9852600A4C9D6 /* UIKit.framework */,
 				465EB94715B9852600A4C9D6 /* Foundation.framework */,
 				465EB94915B9852600A4C9D6 /* CoreGraphics.framework */,
@@ -88,6 +119,39 @@
 				465EB95315B9852600A4C9D6 /* TFBrowser-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		465EB96015B9883A00A4C9D6 /* vendors */ = {
+			isa = PBXGroup;
+			children = (
+				465EB96215B9885C00A4C9D6 /* CIALBrowser */,
+			);
+			name = vendors;
+			sourceTree = "<group>";
+		};
+		465EB96215B9885C00A4C9D6 /* CIALBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				465EB96315B9885C00A4C9D6 /* AddBookmarkViewController.h */,
+				465EB96415B9885C00A4C9D6 /* AddBookmarkViewController.m */,
+				465EB96515B9885C00A4C9D6 /* BookmarkObject.h */,
+				465EB96615B9885C00A4C9D6 /* BookmarkObject.m */,
+				465EB96715B9885C00A4C9D6 /* CIALBrowser.bundle */,
+				465EB96815B9885C00A4C9D6 /* CIALBrowser.h */,
+				465EB96915B9885C00A4C9D6 /* CIALBrowser.m */,
+				465EB96A15B9885C00A4C9D6 /* CIALBrowserViewController.h */,
+				465EB96B15B9885C00A4C9D6 /* CIALBrowserViewController.m */,
+				465EB96C15B9885C00A4C9D6 /* EditBookmarkViewController.h */,
+				465EB96D15B9885C00A4C9D6 /* EditBookmarkViewController.m */,
+				465EB96E15B9885C00A4C9D6 /* UIWebViewAdditions.h */,
+				465EB96F15B9885C00A4C9D6 /* UIWebViewAdditions.m */,
+				465EB97015B9885C00A4C9D6 /* UnpreventableUILongPressGestureRecognizer.h */,
+				465EB97115B9885C00A4C9D6 /* UnpreventableUILongPressGestureRecognizer.m */,
+				465EB97215B9885C00A4C9D6 /* ViewBookmarkViewController.h */,
+				465EB97315B9885C00A4C9D6 /* ViewBookmarkViewController.m */,
+			);
+			name = CIALBrowser;
+			path = vendors/CIALBrowser/CIALBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				465EB95015B9852600A4C9D6 /* InfoPlist.strings in Resources */,
+				465EB97615B9885C00A4C9D6 /* CIALBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +219,14 @@
 			files = (
 				465EB95215B9852600A4C9D6 /* main.m in Sources */,
 				465EB95615B9852600A4C9D6 /* AppDelegate.m in Sources */,
+				465EB97415B9885C00A4C9D6 /* AddBookmarkViewController.m in Sources */,
+				465EB97515B9885C00A4C9D6 /* BookmarkObject.m in Sources */,
+				465EB97715B9885C00A4C9D6 /* CIALBrowser.m in Sources */,
+				465EB97815B9885C00A4C9D6 /* CIALBrowserViewController.m in Sources */,
+				465EB97915B9885C00A4C9D6 /* EditBookmarkViewController.m in Sources */,
+				465EB97A15B9885C00A4C9D6 /* UIWebViewAdditions.m in Sources */,
+				465EB97B15B9885C00A4C9D6 /* UnpreventableUILongPressGestureRecognizer.m in Sources */,
+				465EB97C15B9885C00A4C9D6 /* ViewBookmarkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +330,7 @@
 				465EB95B15B9852600A4C9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
