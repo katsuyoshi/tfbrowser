@@ -13,7 +13,7 @@ How to build.
 It uses CIALBrowser.
 For setup CIALBrowser, run setup_vendors.rb script on Terminal.app
 
-    ruby setup_vendors script
+    ruby setup_vendors.rb script
 
 
 Build it using Xcode as normal.
