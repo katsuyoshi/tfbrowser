@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46521C8215B9917A0064BBC5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46521C8115B9917A0064BBC5 /* README.md */; };
 		465EB94615B9852600A4C9D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465EB94515B9852600A4C9D6 /* UIKit.framework */; };
 		465EB94815B9852600A4C9D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465EB94715B9852600A4C9D6 /* Foundation.framework */; };
 		465EB94A15B9852600A4C9D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465EB94915B9852600A4C9D6 /* CoreGraphics.framework */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46521C7E15B9915F0064BBC5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46521C8115B9917A0064BBC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		465EB94115B9852600A4C9D6 /* TFBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465EB94515B9852600A4C9D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		465EB94715B9852600A4C9D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,6 +77,8 @@
 		465EB93615B9852600A4C9D6 = {
 			isa = PBXGroup;
 			children = (
+				46521C8115B9917A0064BBC5 /* README.md */,
+				46521C7E15B9915F0064BBC5 /* LICENSE */,
 				465EB94B15B9852600A4C9D6 /* TFBrowser */,
 				465EB96015B9883A00A4C9D6 /* vendors */,
 				465EB94415B9852600A4C9D6 /* Frameworks */,
@@ -207,6 +212,7 @@
 			files = (
 				465EB95015B9852600A4C9D6 /* InfoPlist.strings in Resources */,
 				465EB97615B9885C00A4C9D6 /* CIALBrowser.bundle in Resources */,
+				46521C8215B9917A0064BBC5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
